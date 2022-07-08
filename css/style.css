@@ -63,6 +63,10 @@ ul {
   text-decoration: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo-foot {
   display: block;
   margin-bottom: 20px;
@@ -115,7 +119,6 @@ ul {
 }
 
 .auth .link {
-  display: block;
   padding: 32px 0px;
   color: var(--primary-text-color);
 
@@ -434,4 +437,15 @@ ul {
   fill: currentColor;
   margin-right: 10px;
 
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-item:hover,
+.contact-item:focus {
+  color: var(--accent-color);
 }
