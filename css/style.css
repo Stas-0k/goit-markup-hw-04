@@ -428,3 +428,10 @@ ul {
 .image-portfolio {
   display: block;
 }
+
+
+.email-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
