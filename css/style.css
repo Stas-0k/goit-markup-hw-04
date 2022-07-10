@@ -122,6 +122,10 @@ a {
   padding: 32px 0px;
   color: var(--primary-text-color);
 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -131,6 +135,13 @@ a {
 .auth .link:focus {
   color: var(--accent-color);
 }
+
+.email-icon,
+.phone-icon {
+  fill: currentColor;
+  margin-right: 10px;
+}
+
 .main-nav {
   display: flex;
   align-items: center;
@@ -157,7 +168,7 @@ a {
 
 .hero-cont {
   max-width: 1600px;
-  min-height: 600px;
+  max-height: 600px;
   margin-left: auto;
   margin-right: auto;
   background-repeat: no-repeat;
@@ -239,6 +250,18 @@ a {
   margin-right: 30px;
 }
 
+.container-adv {
+  display: flex;
+  background-color: var(--background-button);
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;  
+  margin-bottom: 30px;
+  border-radius: 4px;
+}
+
+
 .third {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -272,6 +295,7 @@ a {
   margin-right: 30px;
 }
 
+
 .section .head-team {
   margin-bottom: 10px;
 
@@ -284,6 +308,58 @@ a {
 
 .command-cont {
   padding: 30px 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+
+}
+
+.team-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+ 
+}
+
+.soc-link {
+
+  fill: #AFB1B8;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  
+}
+
+.icon-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.team-icon {
+  display: flex;
+  padding-bottom: 30px;
+}
+
+.soc-list:not(:last-child) {
+  margin-right: 10px;
+}
+
+.soc-link:hover,
+.soc-link:focus
+{
+    background-color: var(--accent-color);
+    fill: #fff;
+ }
+
+
+
+.soc-link:not(:last-child) {
+  margin-right: 10px;
 }
 
 .section .description {
@@ -432,20 +508,6 @@ a {
   display: block;
 }
 
-
-.email-icon {
-  fill: currentColor;
-  margin-right: 10px;
-
-}
-
-.contact-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.contact-item:hover,
-.contact-item:focus {
-  color: var(--accent-color);
+.img-team {
+  display: block;
 }
