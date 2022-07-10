@@ -12,6 +12,7 @@
   --primary-white-color: #ffffff;
   --background-hero: #2f303a;
   --background-button: #f5f4fa;
+  --social-color: #AFB1B8;
 }
 
 body {
@@ -324,7 +325,7 @@ a {
 
 .soc-link {
 
-  fill: #AFB1B8;
+  fill: var(--social-color);
   width: 44px;
   height: 44px;
   display: flex;
