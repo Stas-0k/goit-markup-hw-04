@@ -13,6 +13,7 @@
   --background-hero: #2f303a;
   --background-button: #f5f4fa;
   --social-color: #AFB1B8;
+  --footer-icon: rgba(255, 255, 255, 0.1);
 }
 
 body {
@@ -343,7 +344,6 @@ a {
 
 .team-icon {
   display: flex;
-  padding-bottom: 30px;
 }
 
 .soc-list:not(:last-child) {
@@ -511,4 +511,65 @@ a {
 
 .img-team {
   display: block;
+}
+
+
+.fifth {
+  padding: 94px;
+}
+
+
+.clients-list {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--social-color);
+  border-radius: 4px;
+  
+  fill: var(--social-color);
+}
+
+.fifth .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+ /*color: var(--title-text-color);
+
+ font-size: 14px;
+ font-weight: 700;
+ line-height: 1.14;
+ text-transform: uppercase;*/
+.footer-name {
+  color: var(--primary-white-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.footer-cont {
+  display: flex;
+}
+
+.footer-list {
+  display: flex;
+}
+
+.icon-footer {
+  fill: var(--primary-white-color);
+  background-color: var(--footer-icon);
 }
