@@ -116,7 +116,7 @@ a {
   color: var(--accent-color);
 }
 
-.auth .item + .item {
+.auth .item+.item {
   margin-left: 50px;
 }
 
@@ -148,6 +148,7 @@ a {
   display: flex;
   align-items: center;
 }
+
 .auth {
   display: flex;
   align-items: center;
@@ -178,8 +179,7 @@ a {
   background-size: cover;
   background-color: var(--background-hero);
 
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4))
-  ,url(../images/hero-photo.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-photo.jpg);
 
 }
 
@@ -258,7 +258,7 @@ a {
   width: 270px;
   height: 120px;
   align-items: center;
-  justify-content: center;  
+  justify-content: center;
   margin-bottom: 30px;
   border-radius: 4px;
 }
@@ -321,7 +321,7 @@ a {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
- 
+
 }
 
 .soc-link {
@@ -333,13 +333,13 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  
+
 }
 
 .icon-social {
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .team-icon {
@@ -351,11 +351,10 @@ a {
 }
 
 .soc-link:hover,
-.soc-link:focus
-{
-    background-color: var(--accent-color);
-    fill: #fff;
- }
+.soc-link:focus {
+  background-color: var(--accent-color);
+  fill: #fff;
+}
 
 
 
@@ -496,12 +495,12 @@ a {
 
 .main-portfolio .item {
   width: 370px;
-  }
+}
 
 .fifth {
-    border-bottom: 1px solid #eeeeee;
-    border-right: 1px solid #eeeeee;
-    border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
   padding: 20px 24px;
 }
 
@@ -520,7 +519,7 @@ a {
 
 
 .clients-list {
-  display: flex;  
+  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -533,7 +532,7 @@ a {
   height: 92px;
   border: 1px solid var(--social-color);
   border-radius: 4px;
-  
+
   fill: var(--social-color);
 }
 
@@ -547,7 +546,7 @@ a {
   border-color: var(--accent-color);
 }
 
- 
+
 .footer-name {
   color: var(--primary-white-color);
   font-size: 14px;
@@ -563,16 +562,16 @@ a {
 
 .footer-list {
   display: flex;
-  
+
 }
 
 .icon-footer {
-  
+
   fill: var(--primary-white-color);
 }
 
 .footer-list .item {
-  
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -582,11 +581,11 @@ a {
 
 .footer-social {
   display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 44px;
-    height: 44px;
-      
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+
 }
 
 .footer-list .item:not(:last-child) {
